@@ -1,3 +1,12 @@
 <Solution>
-  <Project Path="PollyRetryDemo/PollyRetryDemo.csproj" />
+  <Folder Name="/src/" />
+  <Folder Name="/src/Api/">
+    <Project Path="PollyRetryDemo/PollyRetryDemo.csproj" />
+  </Folder>
+  <Folder Name="/src/Application/">
+    <Project Path="PollyRetryDemo.Application/PollyRetryDemo.Application.csproj" />
+  </Folder>
+  <Folder Name="/src/Infrastructure/">
+    <Project Path="PollyRetryDemo.Infrastructure/PollyRetryDemo.Infrastructure.csproj" />
+  </Folder>
 </Solution>
